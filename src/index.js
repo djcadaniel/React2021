@@ -4,6 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const e = React.createElement
+
+function App(){
+  return(
+    <h1 id="title">
+      Hola Daniel mas pro
+    </h1>
+  )
+}
+
+ReactDOM.render(e(LikeButton))
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
